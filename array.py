@@ -1,5 +1,5 @@
 
-scores = list(map(int, input("Enter scores separated by spaces: ").split()))
+scores = [80, 90, 70, 60, 100]
 
 total = sum(scores)
 average = total / len(scores)
